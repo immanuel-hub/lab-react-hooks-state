@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 24px;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.app.dark {
+  background-color: #222;
+  color: #f5f5f5;
+}
+
+.app h1 {
+  margin-bottom: 8px;
+}
+
+.app select {
+  margin-left: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+}
+
+.app > button {
+  margin-bottom: 16px;
+  padding: 6px 14px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  cursor: pointer;
+  background-color: #e0e0e0;
+}
+
+.app.dark .card {
+  background-color: #333;
+  border-color: #555;
+  color: #f5f5f5;
+}
