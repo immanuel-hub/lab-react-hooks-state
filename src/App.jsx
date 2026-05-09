@@ -3,7 +3,6 @@ import ProductList from './components/ProductList'
 import DarkModeToggle from './components/DarkModeToggle'
 import Cart from './components/Cart'
 import './styles/App.css'
-
 const App = () => {
   const [darkMode, setDarkMode] = useState(false)
   const [cart, setCart] = useState([])
